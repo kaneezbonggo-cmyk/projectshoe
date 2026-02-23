@@ -1,0 +1,48 @@
+<html>
+<head>
+    <link rel ="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+    <style>
+        body{
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background-color: hsl(0, 12%, 95%);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin-top: 20px;
+            margin-bottom: 20px;
+            
+        }
+        input[type="text"]{
+            width: 100%;
+            padding: 8px;
+            margin: 6px 0 12px 0;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        input[type="submit"]:hover{
+            background-color: #e68a00;
+        } 
+        input:hover{
+            border-color: #ff9900; 
+            box-shadow: 0 0 5px rgba(255,153,0,0.5);
+        }
+    </style>
+</head>
+<form><H2>login /create account</H2>
+
+<table>
+<tr><td>Name<td><input type="text" placeholder="Enter Name"></td></tr><br>
+<tr><td>Mobile number</td><td><input type="text"></td></tr>
+<tr><td>Flat, House no.<td><input type="text"></td></tr>
+<tr><td>Area,Street<td><input type="text"></td></tr>
+<tr><td>Sector,Village<td><input type="text"></td></tr>
+<tr><td>Landmark<td><input type="text"></td></tr></table>
+<tr><td>Pincode<td><input type="text"></td></tr><br>
+<tr><td>State<td><input type="text"></td></tr></table>
+<p><input type="submit" value="submit" onclick="alert('Form Submitted')"></p>
+</form>
